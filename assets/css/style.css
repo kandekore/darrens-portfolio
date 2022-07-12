@@ -1,0 +1,63 @@
+/***Global***/
+@font-face {
+    font-family: "Vermin";
+    src: url(../Fonts/Vermin\ Vibes\ 2\ Soft.otf) format("truetype");
+}
+h1.customfont { 
+    font-family: "Vermin", Verdana, Tahoma;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+h2.customfont { 
+    font-family: "Vermin", Verdana, Tahoma;
+    font-size: 75px;
+    color: #fff;
+    text-align: center;
+}
+/***Global end***/
+/***Header***/
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #003366;
+  /* margin: 0px;
+  padding: 0px;*/
+}
+.title {
+  background-color: #003366;
+  display: flex;
+ /* width: 37.5rem;*/
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+.mugshot {
+  display: flex;
+  width: 30rem;
+  align-items: center;
+  /* background-image: url(../images/darren10k.JPG);
+  background-repeat: no-repeat;*/
+}
+.photo {
+  width: 100%;
+  margin: 0px;
+  border-radius: 25px;
+ /* border-style: outset;
+  border-color: #857878;
+  border-width: 5px;*/
+}
+.logo {
+  width: 100%;
+}
+media screen and (max-width: 468px) {
+    .mugshot {
+        display: flex;
+        width: 100%;
+ 
+}
+/***Header end***/
