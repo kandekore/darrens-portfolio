@@ -46,17 +46,29 @@ li h3 {
   text-align: center;
   line-height: 20px;
   text-shadow: 1px 1px #06f326;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+@media screen and (max-width: 450px) {
+  li h3 {
+    font-size: 60px;
+  }
 }
 li h3:hover {
   color: #06f326;
   text-shadow: 1px 1px #fff;
-  font-size: 28px;
+  /*font-size: 35px;*/
 }
 nav ul {
   list-style: none;
   text-align: center;
+  display: inline-flex;
 }
-
+@media screen and (max-width: 600px) {
+  nav ul {
+    display: inline-flex !important;
+  }
+}
 p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #fff;
@@ -223,47 +235,4 @@ a {
   width: 100%;
   text-align: center;
   padding-top: 250px;
-}
-/**RESPONSIVE ELEMENTS**/
-@media only screen and (max-width: 480px) {
-  .sidebysidepor {
-    width: 27rem !important;
-  }
-  .copyright {
-    padding-top: -150px;
-  }
-  h1.customfont {
-    font-size: 100px;
-    line-height: 120px;
-  }
-  h2.customfont {
-    font-size: 130px;
-  }
-  li h3 {
-    font-size: 40px;
-  }
-  li {
-    padding: 30px;
-  }
-  .fa {
-    font-size: 90px !important;
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-  li {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .mugshot {
-    width: auto;
-  }
-  .sidebyside {
-    width: 80%;
-  }
-  .main-portfolio {
-    width: 80% !important;
-  }
-  .sidebyside {
-    width: 80%;
-  }
 }
