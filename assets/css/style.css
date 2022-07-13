@@ -1,63 +1,176 @@
 /***Global***/
 @font-face {
-    font-family: "Vermin";
-    src: url(../Fonts/Vermin\ Vibes\ 2\ Soft.otf) format("truetype");
+  font-family: "Vermin";
+  src: url(../Fonts/Vermin\ Vibes\ 2\ Soft.otf) format("truetype");
+}
+.fa {
+  display: inline-block!important;
+  font-size: 35px!important;
+  color: #fff;
+  padding: 10px;
 }
 h1.customfont { 
-    font-family: "Vermin", Verdana, Tahoma;
-    font-size: 50px;
-    color: #fff;
-    text-align: center;
+  font-family: "Vermin", Verdana, Tahoma;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  text-shadow: 2px 2px #f30606;
+  
 }
 h2.customfont { 
-    font-family: "Vermin", Verdana, Tahoma;
-    font-size: 75px;
-    color: #fff;
-    text-align: center;
+  font-family: "Vermin", Verdana, Tahoma;
+  font-size: 75px;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  text-shadow: 2px 2px #F30606
+  ;
+}
+li h3 {
+font-family: "Vermin", Verdana, Tahoma;
+font-size: 25px;
+color: #fff;
+text-align: center;
+line-height: 20px;
+text-shadow: 1px 1px #06f326;
+}
+nav ul {
+list-style: none;
+text-align: center;
+}
+
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+}
+.heading {
+/*padding:10px;
+width:60%;*/
+             
+
 }
 /***Global end***/
 /***Header***/
 .flex-container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+position: relative;
+align-items: center;
+justify-content: space-evenly;
+background-color:  #003366;
+padding: 40px;
+
+}
+.about {
+  /*height: 1000px;*/
+  background-image: linear-gradient(180deg, #003366, green 150%);
+  margin: -20px;
+  /* padding: 0px; */
+  margin: -35px;
+  /* padding: 0px; */
+  padding-top: -20px!important;
+}
+.section-head{padding-top: 50px;}
+.flex-container-about-content {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   position: relative;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #003366;
-  /* margin: 0px;
-  padding: 0px;*/
+ 
+  padding: 40px;
+  
+  }
+  /*.flex-container-portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    /*background-color:  #003366;
+    padding: 40px;
+  }*/
+    
+  .main-portfolio
+  {
+    width: 80%;
+    border-radius: 25px;
+    height: 400px;
+    background-image: url(../images/wordpress.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    align: center;
+  }
+    
+  .sidebyside {
+    width: 30rem;
+  }
+  .portfolio {
+    height: 800px;
+    background-image: linear-gradient(180deg, #156429, #ff0000 150%);
+    margin: -20px;
+    /* padding: 0px; */
+    margin: -35px;
+    /* padding: 0px; */
+    padding-top: -20px!important;
+    align-items: center;
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+background-size: cover;
+align-items: center;
+justify-content: space-evenly;
+  }
+.container {
+margin: -20px;
+padding: 0px;
 }
 .title {
-  background-color: #003366;
-  display: flex;
- /* width: 37.5rem;*/
-  align-content: center;
-  text-align: center;
-  align-items: center;
+background-color: #003366;
+display: flex;
+/* width: 37.5rem;*/
+/* align-content: center;*/
+text-align: center;
+/*align-items: center;*/
+/* width:20px;
+height:20px;              
+/*float: left;*/
+padding-top: 50px;
+
 }
 .mugshot {
-  display: flex;
-  width: 30rem;
-  align-items: center;
-  /* background-image: url(../images/darren10k.JPG);
-  background-repeat: no-repeat;*/
+  padding-top: 50px;
+display: flex;
+width: 30rem;
+align-items: center;
+/* background-image: url(../images/darren10k.JPG);
+background-repeat: no-repeat;*/
 }
 .photo {
-  width: 100%;
-  margin: 0px;
-  border-radius: 25px;
- /* border-style: outset;
-  border-color: #857878;
-  border-width: 5px;*/
+width: 100%;
+margin: 0px;
+
+border-radius: 25px;
+/* border-style: outset;
+border-color: #857878;
+border-width: 5px;*/
+
 }
 .logo {
-  width: 100%;
+width: 100%;
 }
 media screen and (max-width: 468px) {
-    .mugshot {
-        display: flex;
-        width: 100%;
- 
+  .mugshot {
+      display: flex;
+      width: 100%;
+
 }
 /***Header end***/
+
