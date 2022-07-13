@@ -225,12 +225,12 @@ a {
   padding-top: 250px;
 }
 /**RESPONSIVE ELEMENTS**/
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 480px) {
   .sidebysidepor {
     width: 27rem !important;
   }
   .copyright {
-    padding-top: 150px;
+    padding-top: -150px;
   }
   h1.customfont {
     font-size: 100px;
