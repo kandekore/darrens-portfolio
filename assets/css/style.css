@@ -15,6 +15,9 @@
   text-shadow: 1px 1px #fff;
   font-size: 45px !important;
 }
+ul.socials {
+  margin-left: -40px;
+}
 h1.customfont {
   font-family: "Vermin", Verdana, Tahoma;
   font-size: 50px;
@@ -23,6 +26,16 @@ h1.customfont {
   line-height: 50px;
   text-shadow: 2px 2px #f30606;
 }
+@media screen and (max-width: 480px) { 
+  h1.customfont {
+    font-size: 45px;
+  }
+  
+h2.customfont {
+    font-size: 55px;
+}
+}
+
 h2.customfont {
   font-family: "Vermin", Verdana, Tahoma;
   font-size: 75px;
@@ -30,6 +43,15 @@ h2.customfont {
   text-align: center;
   line-height: 20px;
   text-shadow: 2px 2px #f30606;
+}
+@media screen and (max-width: 480px) { 
+  h1.customfont {
+    font-size: 45px;
+  }
+  
+h2.customfont {
+    font-size: 55px;
+}
 }
 h3.customfont {
   font-family: "Vermin", Verdana, Tahoma;
@@ -46,13 +68,10 @@ li h3 {
   text-align: center;
   line-height: 20px;
   text-shadow: 1px 1px #06f326;
-  padding-left: 60px;
-  padding-right: 60px;
+  /*padding-left: 60px;*/
+  /*padding-right: 60px;*/
 }
-@media screen and (max-width: 450px) {
-  li h3 {
-    font-size: 60px;
-  }
+
 }
 li h3:hover {
   color: #06f326;
@@ -62,13 +81,10 @@ li h3:hover {
 nav ul {
   list-style: none;
   text-align: center;
-  display: inline-flex;
+  /*display: inline-flex;*/
+  margin-left: -40px;
 }
-@media screen and (max-width: 600px) {
-  nav ul {
-    display: inline-flex !important;
-  }
-}
+
 p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #fff;
@@ -91,8 +107,10 @@ a {
   align-items: center;
   justify-content: space-evenly;
   background-color: #003366;
-  padding: 40px;
+  /*padding: 40px;*/
+ /* width: 125%*/
 }
+
 
 .title {
   background-color: #003366;
@@ -105,9 +123,10 @@ a {
   display: flex;
   width: 30rem;
   align-items: center;
+  justify-content: center;
 }
 .photo {
-  width: 100%;
+  width: 90%;
   margin: 0px;
 
   border-radius: 25px;
@@ -131,7 +150,7 @@ a {
   position: relative;
   align-items: center;
   justify-content: space-evenly;
-
+ /* width: 145%;*/
   padding: 40px;
 }
 
