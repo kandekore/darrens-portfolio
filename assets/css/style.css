@@ -59,6 +59,9 @@ h2.customfont {
   h2.customfont {
     font-size: 55px;
   }
+  #footer {
+    margin-top: -300px;
+  }
 }
 @media screen and (min-width: 800px) {
   .mobile {
@@ -158,7 +161,7 @@ a {
 h5 {
   color: #fff;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-shadow: 1px 1px #000;
@@ -360,23 +363,26 @@ h5.keyphrase {
     width: 90%;
   }
   .sidebysidepor {
-    width: 19rem;
+    width: inherit;
   }
   .sidebysidepor-sem {
-    width: 19rem;
+    width: inherit;
     background-image: url(../images/semhov.jpg);
   }
   .sidebysidepor-server {
-    width: 19rem;
+    width: inherit;
     background-image: url(../images/serverhov.jpg);
   }
   .sidebysidepor-proj1 {
-    width: 19rem;
+    width: inherit;
     background-image: url(../images/proj1hov.jpg);
   }
   .main-portfolio {
-    width: 19rem;
+    width: 20rem;
     background-image: url(../images/wordpresshov.jpg);
+  }
+  .flex-container-folio-content {
+    height: 1329px;
   }
 }
 @media screen and (min-width: 760px) and (max-width: 850px) {
@@ -513,6 +519,34 @@ h5.keyphrase {
   height: 440px;
   width: 45%;
 }
+
+@media screen and (max-width: 800px) {
+  .tonyjames {
+    width: inherit;
+  }
+  .price {
+    width: inherit;
+  }
+  .ukal {
+    width: inherit;
+  }
+  .vgcharles {
+    width: inherit;
+  }
+  .tonyjames:hover {
+    width: inherit;
+  }
+  .ukal:hover {
+    width: inherit;
+  }
+  .price:hover {
+    width: inherit;
+  }
+  .vgcharles:hover {
+    width: inherit;
+  }
+}
+
 /***SEOs page***/
 .sacfc {
   width: 34rem;
@@ -584,4 +618,30 @@ h5.keyphrase {
   box-shadow: 5px 5px #000;
   height: 440px;
   width: 45%;
+}
+@media screen and (max-width: 800px) {
+  .sacfc {
+    width: inherit;
+  }
+  .bafab {
+    width: inherit;
+  }
+  .spotlight {
+    width: inherit;
+  }
+  .bafab {
+    width: inherit;
+  }
+  .deep:hover {
+    width: inherit;
+  }
+  .sacfc:hover {
+    width: inherit;
+  }
+  .bafab:hover {
+    width: inherit;
+  }
+  .spotlight:hover {
+    width: inherit;
+  }
 }
