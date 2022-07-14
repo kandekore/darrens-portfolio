@@ -59,7 +59,7 @@ h2.customfont {
   h2.customfont {
     font-size: 55px;
   }
-  #footer {
+  .homepage#footer {
     margin-top: -300px;
   }
 }
