@@ -26,16 +26,20 @@ h1.customfont {
   line-height: 50px;
   text-shadow: 2px 2px #f30606;
 }
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 480px) {
   h1.customfont {
     font-size: 45px;
   }
-  
-h2.customfont {
-    font-size: 55px;
-}
-}
 
+  h2.customfont {
+    font-size: 55px;
+  }
+
+  p.porttext-main {
+    margin-bottom: -20px;
+    margin-top: -10px;
+  }
+}
 h2.customfont {
   font-family: "Vermin", Verdana, Tahoma;
   font-size: 75px;
@@ -44,22 +48,39 @@ h2.customfont {
   line-height: 20px;
   text-shadow: 2px 2px #f30606;
 }
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 480px) {
+  .desktop {
+    display: none;
+  }
   h1.customfont {
     font-size: 45px;
   }
-  
-h2.customfont {
+
+  h2.customfont {
     font-size: 55px;
+  }
 }
+@media screen and (min-width: 800px) {
+  .mobile {
+    display: none;
+  }
+  .sidebysidepor-sem h3 {
+    padding-top: 60px;
+  }
+  .sidebysidepor-server h3 {
+    padding-top: 60px;
+  }
+  .sidebysidepor-proj1 h3 {
+    padding-top: 40px;
+  }
 }
 h3.customfont {
   font-family: "Vermin", Verdana, Tahoma;
   font-size: 25px;
   color: #fff;
   text-align: center;
-  line-height: 20px;
-  text-shadow: 2px 2px #000000;
+  line-height: 26px;
+  text-shadow: 2px 2px #f30606;
 }
 li h3 {
   font-family: "Vermin", Verdana, Tahoma;
@@ -72,11 +93,29 @@ li h3 {
   /*padding-right: 60px;*/
 }
 
-}
 li h3:hover {
   color: #06f326;
   text-shadow: 1px 1px #fff;
   /*font-size: 35px;*/
+}
+h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  text-shadow: 1px 1px #06f326;
+  /*padding-left: 60px;*/
+  /*padding-right: 60px;*/
+}
+
+h4 a:hover {
+  color: #06f326;
+  text-shadow: 1px 1px #fff;
+  /*font-size: 35px;*/
+}
+h4 a {
+  color: #fff;
 }
 nav ul {
   list-style: none;
@@ -90,13 +129,21 @@ p {
   color: #fff;
   font-size: 18px;
   line-height: 20px;
+  /*text-align: justify;*/
+}
+p.porttext-main {
+  padding: 0px;
+  text-shadow: 1px 1px #000;
   text-align: justify;
+
+  /* font-weight: 800!important; */
 }
 p.porttext {
   padding: 12px;
   text-shadow: 1px 1px #000;
   /* font-weight: 800!important; */
 }
+
 ul.experience {
   color: #fff;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -106,6 +153,25 @@ ul.experience {
 }
 a {
   text-decoration: none;
+}
+
+h5 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 1px 1px #000;
+  margin: 0px;
+}
+h5.keyphrase {
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 1px 1px #06f326;
+  margin: 0px;
 }
 /***Global end***/
 /***Header***/
@@ -118,9 +184,8 @@ a {
   justify-content: space-evenly;
   background-color: #003366;
   /*padding: 40px;*/
- /* width: 125%*/
+  /* width: 125%*/
 }
-
 
 .title {
   background-color: #003366;
@@ -161,7 +226,7 @@ a {
   position: relative;
   align-items: center;
   justify-content: space-evenly;
- /* width: 145%;*/
+  /* width: 145%;*/
   padding: 40px;
 }
 
@@ -196,7 +261,7 @@ a {
   background-repeat: no-repeat;
   background-position: center center;
   box-shadow: 5px 5px #f0f0f0;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 .main-portfolio:hover {
   background-image: url(../images/wordpresshov.jpg);
@@ -237,7 +302,7 @@ a {
   width: 34rem;
   border-radius: 25px;
   height: 400px;
-  background-image: url(../images/sem.jpg);
+  background-image: url(../images/semhov.jpg);
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -256,7 +321,7 @@ a {
   width: 34rem;
   border-radius: 25px;
   height: 400px;
-  background-image: url(../images/server.jpg);
+  background-image: url(../images/serverhov.jpg);
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -275,7 +340,7 @@ a {
   width: 34rem;
   border-radius: 25px;
   height: 400px;
-  background-image: url(../images/proj1.jpg);
+  background-image: url(../images/proj1hov.jpg);
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -291,27 +356,28 @@ a {
   width: 45%;
 }
 @media screen and (max-width: 480px) {
+  .wpinner-container {
+    width: 90%;
+  }
   .sidebysidepor {
     width: 19rem;
-
-}
-.sidebysidepor-sem {
-  width: 19rem;
-  background-image: url(../images/semhov.jpg);
-}
-.sidebysidepor-server {
-  width: 19rem;
-  background-image: url(../images/serverhov.jpg);
-}
-.sidebysidepor-proj1 {
-  width: 19rem;
-  background-image: url(../images/proj1hov.jpg);
-}
-.main-portfolio {
-  width: 19rem;
-  background-image: url(../images/wordpresshov.jpg);
-
-}
+  }
+  .sidebysidepor-sem {
+    width: 19rem;
+    background-image: url(../images/semhov.jpg);
+  }
+  .sidebysidepor-server {
+    width: 19rem;
+    background-image: url(../images/serverhov.jpg);
+  }
+  .sidebysidepor-proj1 {
+    width: 19rem;
+    background-image: url(../images/proj1hov.jpg);
+  }
+  .main-portfolio {
+    width: 19rem;
+    background-image: url(../images/wordpresshov.jpg);
+  }
 }
 @media screen and (min-width: 760px) and (max-width: 850px) {
   .sidebysidepor {
@@ -332,9 +398,13 @@ a {
   .main-portfolio {
     width: 38rem;
     background-image: url(../images/wordpresshov.jpg);
-
   }
-  
+  .wpinner-container {
+    width: 90%;
+  }
+  .desktop {
+    display: none;
+  }
 }
 .footer {
   /*width: 100%;*/
@@ -370,4 +440,148 @@ a {
   /*width: 100%;*/
   text-align: center;
   padding-top: 350px;
+}
+/***Woordpress page***/
+.tonyjames {
+  width: 34rem;
+  border-radius: 25px;
+  height: 400px;
+  background-image: url(../images/Tony-James.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  align: center;
+  margin: 20px;
+  box-shadow: 5px 5px #f0f0f0;
+}
+.tonyjames:hover {
+  box-shadow: 5px 5px #000;
+  height: 440px;
+  width: 45%;
+}
+.ukal {
+  width: 34rem;
+  border-radius: 25px;
+  height: 400px;
+  background-image: url(../images/ukaesthetics.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  align: center;
+  margin: 20px;
+  box-shadow: 5px 5px #f0f0f0;
+}
+.ukal:hover {
+  box-shadow: 5px 5px #000;
+  height: 440px;
+  width: 45%;
+}
+.vgcharles {
+  width: 34rem;
+  border-radius: 25px;
+  height: 400px;
+  background-image: url(../images/VGCharles.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  align: center;
+  margin: 20px;
+  box-shadow: 5px 5px #f0f0f0;
+}
+.vgcharles:hover {
+  box-shadow: 5px 5px #000;
+  height: 440px;
+  width: 45%;
+}
+.price {
+  width: 34rem;
+  border-radius: 25px;
+  height: 400px;
+  background-image: url(../images/pricerichardson.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  align: center;
+  margin: 20px;
+  box-shadow: 5px 5px #f0f0f0;
+}
+.price:hover {
+  box-shadow: 5px 5px #000;
+  height: 440px;
+  width: 45%;
+}
+/***SEOs page***/
+.sacfc {
+  width: 34rem;
+  border-radius: 25px;
+  height: 400px;
+  background-image: url(../images/sacfc.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  align: center;
+  margin: 20px;
+  box-shadow: 5px 5px #f0f0f0;
+}
+.sacfc:hover {
+  box-shadow: 5px 5px #000;
+  height: 440px;
+  width: 45%;
+}
+.bafab {
+  width: 34rem;
+  border-radius: 25px;
+  height: 400px;
+  background-image: url(../images/bafab.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  align: center;
+  margin: 20px;
+  box-shadow: 5px 5px #f0f0f0;
+}
+.bafab:hover {
+  box-shadow: 5px 5px #000;
+  height: 440px;
+  width: 45%;
+}
+.deep {
+  width: 34rem;
+  border-radius: 25px;
+  height: 400px;
+  background-image: url(../images/deep.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  align: center;
+  margin: 20px;
+  box-shadow: 5px 5px #f0f0f0;
+}
+.deep:hover {
+  box-shadow: 5px 5px #000;
+  height: 440px;
+  width: 45%;
+}
+.spotlight {
+  width: 34rem;
+  border-radius: 25px;
+  height: 400px;
+  background-image: url(../images/spotlight.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  align: center;
+  margin: 20px;
+  box-shadow: 5px 5px #f0f0f0;
+}
+.spotlight:hover {
+  box-shadow: 5px 5px #000;
+  height: 440px;
+  width: 45%;
 }
