@@ -381,9 +381,9 @@ h5.keyphrase {
     width: 20rem;
     background-image: url(../images/wordpresshov.jpg);
   }
-  .flex-container-folio-content {
+  /* .flex-container-folio-content {
     height: 1329px;
-  }
+  }*/
 }
 @media screen and (min-width: 760px) and (max-width: 850px) {
   .sidebysidepor {
