@@ -59,9 +59,9 @@ h2.customfont {
   h2.customfont {
     font-size: 55px;
   }
-  .homepage#footer {
+  /* .homepage#footer {
     margin-top: -300px;
-  }
+  }*/
 }
 @media screen and (min-width: 800px) {
   .mobile {
