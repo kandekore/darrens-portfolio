@@ -59,7 +59,7 @@ h3.customfont {
   color: #fff;
   text-align: center;
   line-height: 20px;
-  text-shadow: 2px 2px #f30606;
+  text-shadow: 2px 2px #000000;
 }
 li h3 {
   font-family: "Vermin", Verdana, Tahoma;
@@ -90,6 +90,16 @@ p {
   color: #fff;
   font-size: 18px;
   line-height: 20px;
+  text-align: justify;
+}
+p.porttext {
+  padding: 12px;
+  text-shadow: 1px 1px #000;
+  /* font-weight: 800!important; */
+}
+ul.experience {
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .section-head {
   padding-top: 50px;
@@ -178,7 +188,7 @@ a {
 }
 
 .main-portfolio {
-  width: 80%;
+  width: 70rem;
   border-radius: 25px;
   height: 400px;
   background-image: url(../images/wordpress.jpg);
@@ -186,6 +196,7 @@ a {
   background-repeat: no-repeat;
   background-position: center center;
   box-shadow: 5px 5px #f0f0f0;
+  margin-bottom: 20px
 }
 .main-portfolio:hover {
   background-image: url(../images/wordpresshov.jpg);
@@ -210,10 +221,10 @@ a {
   justify-content: center;
 }
 .sidebysidepor {
-  width: 36rem;
+  width: 34rem;
   border-radius: 25px;
   height: 400px;
-  background-image: url(../images/wordpress.jpg);
+  background-image: url(../images/tbc.jpg);
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -222,13 +233,111 @@ a {
   margin: 20px;
   box-shadow: 5px 5px #f0f0f0;
 }
+.sidebysidepor-sem {
+  width: 34rem;
+  border-radius: 25px;
+  height: 400px;
+  background-image: url(../images/sem.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  align: center;
+  margin: 20px;
+  box-shadow: 5px 5px #f0f0f0;
+}
+.sidebysidepor-sem:hover {
+  background-image: url(../images/semhov.jpg);
+  box-shadow: 5px 5px #000;
+  height: 440px;
+  width: 45%;
+}
+.sidebysidepor-server {
+  width: 34rem;
+  border-radius: 25px;
+  height: 400px;
+  background-image: url(../images/server.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  align: center;
+  margin: 20px;
+  box-shadow: 5px 5px #f0f0f0;
+}
+.sidebysidepor-server:hover {
+  background-image: url(../images/serverhov.jpg);
+  box-shadow: 5px 5px #000;
+  height: 440px;
+  width: 45%;
+}
+.sidebysidepor-proj1 {
+  width: 34rem;
+  border-radius: 25px;
+  height: 400px;
+  background-image: url(../images/proj1.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  align: center;
+  margin: 20px;
+  box-shadow: 5px 5px #f0f0f0;
+}
+.sidebysidepor-proj1:hover {
+  background-image: url(../images/proj1hov.jpg);
+  box-shadow: 5px 5px #000;
+  height: 440px;
+  width: 45%;
+}
 @media screen and (max-width: 480px) {
   .sidebysidepor {
     width: 19rem;
+
 }
+.sidebysidepor-sem {
+  width: 19rem;
+  background-image: url(../images/semhov.jpg);
+}
+.sidebysidepor-server {
+  width: 19rem;
+  background-image: url(../images/serverhov.jpg);
+}
+.sidebysidepor-proj1 {
+  width: 19rem;
+  background-image: url(../images/proj1hov.jpg);
+}
+.main-portfolio {
+  width: 19rem;
+  background-image: url(../images/wordpresshov.jpg);
+
+}
+}
+@media screen and (min-width: 760px) and (max-width: 850px) {
+  .sidebysidepor {
+    width: 38rem;
+  }
+  .sidebysidepor-sem {
+    width: 38rem;
+    background-image: url(../images/semhov.jpg);
+  }
+  .sidebysidepor-server {
+    width: 38rem;
+    background-image: url(../images/serverhov.jpg);
+  }
+  .sidebysidepor-proj1 {
+    width: 38rem;
+    background-image: url(../images/proj1hov.jpg);
+  }
+  .main-portfolio {
+    width: 38rem;
+    background-image: url(../images/wordpresshov.jpg);
+
+  }
+  
 }
 .footer {
-  width: 100%;
+  /*width: 100%;*/
   height: 300px;
   /*background-image: linear-gradient(180deg, #89b193, #003366 150%);*/
   display: flex;
@@ -239,10 +348,11 @@ a {
   justify-content: center;
 }
 .footercol {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
-  width: 27rem;
+  /*width: 27rem;*/
   text-align: center;
+  padding: 10px;
 }
 .footercol a {
   text-decoration: none;
@@ -257,7 +367,7 @@ a {
   margin-top: 50px;
 }
 .copyright {
-  width: 100%;
+  /*width: 100%;*/
   text-align: center;
-  padding-top: 250px;
+  padding-top: 350px;
 }
