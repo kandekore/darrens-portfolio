@@ -221,6 +221,11 @@ a {
   margin: 20px;
   box-shadow: 5px 5px #f0f0f0;
 }
+@media screen and (max-width: 480px) {
+  .sidebysidepor {
+    width: 24rem;
+  }
+}
 .footer {
   width: 100%;
   height: 300px;
