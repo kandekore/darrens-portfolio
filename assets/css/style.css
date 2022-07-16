@@ -176,6 +176,32 @@ h5.keyphrase {
   text-shadow: 1px 1px #06f326;
   margin: 0px;
 }
+ /**small screen fix**/
+
+@media screen and (max-width: 350px) {
+p.porttext {
+    padding: 5px;
+}
+.wpinner-container {
+
+    padding: 12px;
+}
+.main-portfolio {
+    width: 16.5rem;
+}
+h2.customfont {
+    font-size: 45px;
+}
+h1.customfont {
+    font-size: 37px;
+}
+h5 {
+    margin: 0px 20px 0px 20px;
+}
+h3.customfont {
+    font-size: 20px;
+}
+}
 /***Global end***/
 /***Header***/
 .flex-container {
