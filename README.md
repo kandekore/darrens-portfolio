@@ -14,5 +14,12 @@
 ##WHEN I click on the images of the applications THEN I am taken to that deployed application
 #WHEN I resize the page or view the site on various screens and devices THEN I am presented with a responsive layout that adapts to my viewport
 
+#Additional features include 
+
+##Font awesome CSS added at line 6 in index.html
+##Portfolio boxes expand on desktop hover
+##Text & Box shadow throughout
+##custom font added in line 2 in style.css
+
 Link to application https://kandekore.github.io/darrens-portfolio/
 ![image](https://user-images.githubusercontent.com/41653646/179110471-c9cc3c66-83a8-4e84-97ce-d97cf6414aef.png)
