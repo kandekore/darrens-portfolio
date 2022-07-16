@@ -424,6 +424,12 @@ h3.customfont {
     height: 1329px;
   }*/
 }
+@media screen and (max-width: 350px) {
+  
+.main-portfolio {
+    width: 16.5rem;
+}
+}
 @media screen and (min-width: 760px) and (max-width: 850px) {
   .sidebysidepor {
     width: 38rem;
