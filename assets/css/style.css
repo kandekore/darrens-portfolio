@@ -288,6 +288,19 @@ h5.keyphrase {
   align-items: center;
   justify-content: center;
 }
+/**Large screen fix**/
+@media screen and (min-width: 1500px) {
+  .flex-container-folio-content {
+    height: 850px;
+    width: 80%;
+}
+  .main-portfolio {
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+}
+  
 .sidebysidepor {
   width: 34rem;
   border-radius: 25px;
