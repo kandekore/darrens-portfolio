@@ -690,3 +690,33 @@ h3.customfont {
     width: inherit;
   }
 }
+.sidebysidepor-teamproj h3 {
+  padding-top: 40px;
+}
+.sidebysidepor-teamproj {
+width: 34rem;
+border-radius: 25px;
+height: 400px;
+background-image: url(../images/zenfoci.jpg);
+
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+align: center;
+margin: 20px;
+box-shadow: 5px 5px #f0f0f0;
+}
+.sidebysidepor-teamproj:hover {
+background-image: url(../images/zenfoci.jpg);
+box-shadow: 5px 5px #000;
+height: 440px;
+width: 45%;
+}
+.sidebysidepor-teamproj {
+  width: inherit;
+  background-image: url(../images/zenfoci.jpg);
+}
+.sidebysidepor-teamproj {
+  width: 38rem;
+  background-image: url(../images/zenfoci.jpg);
+}
