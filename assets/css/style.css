@@ -698,7 +698,6 @@ width: 34rem;
 border-radius: 25px;
 height: 400px;
 background-image: url(../images/zenfoci.jpg);
-
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center center;
@@ -717,6 +716,6 @@ width: 45%;
   background-image: url(../images/zenfoci.jpg);
 }
 .sidebysidepor-teamproj {
-  width: 38rem;
+  width: 34rem;
   background-image: url(../images/zenfoci.jpg);
 }
