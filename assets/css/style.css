@@ -1,4 +1,7 @@
 /***Global***/
+body.homepage {
+  background: #b3ccb8;
+}
 @font-face {
   font-family: "Vermin";
   src: url(../Fonts/Vermin\ Vibes\ 2\ Soft.otf) format("truetype");
@@ -59,9 +62,6 @@ h2.customfont {
   h2.customfont {
     font-size: 55px;
   }
-  /* .homepage#footer {
-    margin-top: -300px;
-  }*/
 }
 @media screen and (min-width: 800px) {
   .mobile {
@@ -176,31 +176,30 @@ h5.keyphrase {
   text-shadow: 1px 1px #06f326;
   margin: 0px;
 }
- /**small screen fix**/
+/**small screen fix**/
 
 @media screen and (max-width: 350px) {
-p.porttext {
+  p.porttext {
     padding: 5px;
-}
-.wpinner-container {
-
+  }
+  .wpinner-container {
     padding: 12px;
-}
-.main-portfolio {
+  }
+  .main-portfolio {
     width: 16.5rem;
-}
-h2.customfont {
+  }
+  h2.customfont {
     font-size: 45px;
-}
-h1.customfont {
+  }
+  h1.customfont {
     font-size: 37px;
-}
-h5 {
+  }
+  h5 {
     margin: 0px 20px 0px 20px;
-}
-h3.customfont {
+  }
+  h3.customfont {
     font-size: 20px;
-}
+  }
 }
 /***Global end***/
 /***Header***/
@@ -319,14 +318,14 @@ h3.customfont {
   .flex-container-folio-content {
     height: 850px;
     width: 80%;
-}
+  }
   .main-portfolio {
     width: 60%;
     margin-right: 20%;
     margin-left: 20%;
+  }
 }
-}
-  
+
 .sidebysidepor {
   width: 34rem;
   border-radius: 25px;
@@ -425,10 +424,9 @@ h3.customfont {
   }*/
 }
 @media screen and (max-width: 350px) {
-  
-.main-portfolio {
+  .main-portfolio {
     width: 16.5rem;
-}
+  }
 }
 @media screen and (min-width: 760px) and (max-width: 850px) {
   .sidebysidepor {
@@ -457,40 +455,11 @@ h3.customfont {
     display: none;
   }
 }
-.footer {
-  /*width: 100%;*/
-  height: 300px;
-  /*background-image: linear-gradient(180deg, #89b193, #003366 150%);*/
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-.footercol {
-  font-size: 25px;
-  font-weight: 600;
-  /*width: 27rem;*/
-  text-align: center;
-  padding: 10px;
-}
-.footercol a {
-  text-decoration: none;
-  color: #fff;
-}
-.footercol a:hover {
-  text-decoration: none;
-  color: #fff;
-  font-size: 32px;
-}
-#footer {
-  margin-top: 50px;
-}
+
 .copyright {
   /*width: 100%;*/
   text-align: center;
-  padding-top: 350px;
+  /* padding-top: 350px; */
 }
 /***Woordpress page***/
 .tonyjames {
@@ -694,22 +663,22 @@ h3.customfont {
   padding-top: 40px;
 }
 .sidebysidepor-teamproj {
-width: 34rem;
-border-radius: 25px;
-height: 400px;
-background-image: url(../images/zenfoci.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-align: center;
-margin: 20px;
-box-shadow: 5px 5px #f0f0f0;
+  width: 34rem;
+  border-radius: 25px;
+  height: 400px;
+  background-image: url(../images/zenfoci.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  align: center;
+  margin: 20px;
+  box-shadow: 5px 5px #f0f0f0;
 }
 .sidebysidepor-teamproj:hover {
-background-image: url(../images/zenfoci.jpg);
-box-shadow: 5px 5px #000;
-height: 440px;
-width: 45%;
+  background-image: url(../images/zenfoci.jpg);
+  box-shadow: 5px 5px #000;
+  height: 440px;
+  width: 45%;
 }
 .sidebysidepor-teamproj {
   width: inherit;
@@ -718,4 +687,67 @@ width: 45%;
 .sidebysidepor-teamproj {
   width: 34rem;
   background-image: url(../images/zenfoci.jpg);
+}
+
+.sidebysidepor-teamproj1 h3 {
+  padding-top: 40px;
+}
+.sidebysidepor-teamproj1 {
+  width: 34rem;
+  border-radius: 25px;
+  height: 400px;
+  background-image: url(../images/scar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  align: center;
+  margin: 20px;
+  box-shadow: 5px 5px #f0f0f0;
+}
+/* .sidebysidepor-teamproj1:hover {
+  background-image: url(../images/scar.jpg);
+  box-shadow: 5px 5px #000;
+  height: 440px;
+  width: 45%;
+} */
+.sidebysidepor-teamproj1 {
+  width: inherit;
+  background-image: url(../images/scar.jpg);
+}
+.sidebysidepor-teamproj1 {
+  width: 34rem;
+  background-image: url(../images/scar.jpg);
+}
+
+/*footer**/
+
+.footer {
+  /*width: 100%;*/
+  height: 300px;
+  /*background-image: linear-gradient(180deg, #89b193, #003366 150%);*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.footercol {
+  font-size: 25px;
+  font-weight: 600;
+  /*width: 27rem;*/
+  text-align: center;
+  padding: 10px;
+}
+.footercol a {
+  text-decoration: none;
+  color: #fff;
+}
+.footercol a:hover {
+  text-decoration: none;
+  color: #fff;
+  font-size: 32px;
+}
+#footer {
+  margin-top: 50px;
 }
